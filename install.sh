@@ -75,5 +75,6 @@ echo "║  → search 'Quark'                        ║"
 echo "╚══════════════════════════════════════════╝"
 echo ""
 echo "To update later, run:"
-echo "  cd $CLONE_DIR && git pull && ninja -C build && sudo ninja -C build install && xfce4-panel -r"
+echo "  cd $CLONE_DIR && git pull && ninja -C build && sudo ninja -C build install && xfce4-panel --quit ; xfce4-panel & 
+ -r"
 echo ""
