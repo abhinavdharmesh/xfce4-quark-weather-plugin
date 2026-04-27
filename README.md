@@ -21,7 +21,7 @@ Uses [met.no](https://api.met.no/) — **no API key required**. Works out of the
 ### Option A — One-liner (Ubuntu / Debian / Xubuntu / Linux Mint)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/abhinavdharmesh/xfce4-quark-weather-plugin/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/abhinavdharmesh/xfce4-quark-weather-plugin/master/install.sh | bash
 ```
 
 ### Option B — Build from source
