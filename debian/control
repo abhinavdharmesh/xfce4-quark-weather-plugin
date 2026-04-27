@@ -1,0 +1,21 @@
+Source: xfce4-quark-weather-plugin
+Section: xfce
+Priority: optional
+Maintainer: Abhinav Dharmesh <abhinavdharmesh@dei.ac.in>
+Build-Depends: debhelper-compat (= 13), meson, ninja-build, pkg-config,
+               libgtk-3-dev, libxfce4panel-2.0-dev, libxfce4util-dev,
+               libsoup2.4-dev, libjson-glib-dev
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://github.com/abhinavdharmesh/xfce4-quark-weather-plugin
+
+Package: xfce4-quark-weather-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, xfce4-panel, librsvg2-common, glib-networking
+Description: Quark Weather — modern Xfce panel weather plugin
+ A glassmorphism-styled weather plugin for the Xfce panel.
+ Shows current conditions, hourly forecasts, and 7-day outlook
+ using free met.no data — no API key required.
+ .
+ Features include location search via OpenStreetMap, automatic
+ IP-based geolocation, SVG weather icons, and wttr.in fallback.

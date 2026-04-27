@@ -1,0 +1,14 @@
+xfce4-quark-weather-plugin (1.0.0-1) unstable; urgency=low
+
+  * Initial release
+  * Current weather with temperature, feels-like, humidity, wind, UV, dew point
+  * 24-hour hourly forecast with SVG weather icons
+  * 7-day daily forecast with temperature range bars
+  * Glassmorphism popup design
+  * Location search via Nominatim (OpenStreetMap)
+  * IP-based automatic geolocation
+  * met.no free data — no API key required
+  * wttr.in fallback provider
+  * Right-click context menu (Refresh, Change Location, Properties, About)
+
+ -- Abhinav Dharmesh <abhinavdharmesh@dei.ac.in>  Sun, 27 Apr 2025 20:00:00 +0530

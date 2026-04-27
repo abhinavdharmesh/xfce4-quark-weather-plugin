@@ -1,0 +1,9 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Name=Quark Weather
+Comment=Modern weather for Xfce — met.no powered, no API key needed
+Icon=weather-few-clouds
+X-XFCE-Module=xfce4-quark-weather-plugin
+X-XFCE-Internal=false
+X-XFCE-Unique=false
+X-XFCE-API=2.0

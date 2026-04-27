@@ -1,0 +1,2 @@
+# Meson build options
+option('install_dir', type: 'string', value: '/usr', description: 'Installation prefix')
