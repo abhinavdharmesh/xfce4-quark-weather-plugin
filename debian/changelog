@@ -11,4 +11,4 @@ xfce4-quark-weather-plugin (1.0.0-1) unstable; urgency=low
   * wttr.in fallback provider
   * Right-click context menu (Refresh, Change Location, Properties, About)
 
- -- Abhinav Dharmesh <abhinavdharmesh@dei.ac.in>  Sun, 27 Apr 2025 20:00:00 +0530
+ -- Quark Weather Contributors <quark-weather@example.com>  Sun, 27 Apr 2026 20:00:00 +0000
