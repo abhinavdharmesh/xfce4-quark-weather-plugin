@@ -85,8 +85,3 @@ Fallback provider: [wttr.in](https://wttr.in/) (also free, no key).
 ## License
 
 GPL-2.0-or-later
-
----
-
-Made with ☀ by [Abhinav Dharmesh](mailto:abhinavdharmesh@dei.ac.in)  
-Dayalbagh Educational Institute, Agra, India
