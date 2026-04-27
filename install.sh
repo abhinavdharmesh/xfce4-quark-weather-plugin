@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # install.sh — One-command installer for Quark Weather Plugin
-# Usage: curl -fsSL https://raw.githubusercontent.com/abhinavdharmesh/xfce4-quark-weather-plugin/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/abhinavdharmesh/xfce4-quark-weather-plugin/master/install.sh | bash
 set -e
 
 REPO_URL="https://github.com/abhinavdharmesh/xfce4-quark-weather-plugin"
@@ -48,7 +48,7 @@ else
     git clone "$REPO_URL" "$CLONE_DIR"
 fi
 
-# ── Build ──────────────────────────────────────────────────────────────
+# ── Build ────────────────────────────────────────────────────────────
 echo ""
 echo "==> Building…"
 cd "$CLONE_DIR"
@@ -56,7 +56,7 @@ rm -rf build
 meson setup build --prefix=/usr
 ninja -C build
 
-# ── Install ────────────────────────────────────────────────────────────
+# ── Install ───────────────────────────────────────────────────────────
 echo ""
 echo "==> Installing (requires sudo)…"
 sudo ninja -C build install
@@ -75,6 +75,5 @@ echo "║  → search 'Quark'                        ║"
 echo "╚══════════════════════════════════════════╝"
 echo ""
 echo "To update later, run:"
-echo "  cd $CLONE_DIR && git pull && ninja -C build && sudo ninja -C build install && xfce4-panel --quit ; xfce4-panel & 
- -r"
+echo "  cd $CLONE_DIR && git pull && ninja -C build && sudo ninja -C build install && xfce4-panel -r"
 echo ""
