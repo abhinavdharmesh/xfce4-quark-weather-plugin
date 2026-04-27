@@ -13,7 +13,7 @@ Uses [met.no](https://api.met.no/) — **no API key required**. Works out of the
 - **wttr.in fallback** — seamlessly switches if met.no is unreachable
 - **Location search** — type a city name, pick from results (Nominatim)
 - **Auto-detect location** — one-click IP geolocation
-- **Right-click menu** — Refresh Now, Change Location, Properties, About
+- **Panel preferences menu** — Access settings, change location, and refresh via panel preferences
 - **Sunrise & sunset** with daylight duration
 
 ## Install
@@ -42,7 +42,7 @@ sudo ninja -C build install
 xfce4-panel -r
 ```
 
-Then right-click your panel → **Add New Items** → search **"Quark"**.
+Then open **Panel Preferences** → **Items** tab → select **"Quark Weather"** → click the **Settings** button to configure.
 
 ### Option C — Pre-built .deb (no compilation)
 
@@ -59,10 +59,9 @@ xfce4-panel -r
 | Action | What it does |
 |--------|-------------|
 | **Left-click** the panel button | Opens the forecast popup |
-| **Right-click** → Change Location… | Search and set your city |
-| **Right-click** → Properties | Open all settings |
-| **Right-click** → Refresh Now | Force a weather update |
-| **Right-click** → About | Plugin info & version |
+| **Panel Preferences** → **Items** → **Settings** | Open all settings and change location |
+| **Settings** → Refresh button | Force a weather update |
+| **Settings** → About section | Plugin info & version |
 
 ## Requirements
 
